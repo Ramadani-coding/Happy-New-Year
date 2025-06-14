@@ -6,8 +6,8 @@ import Countdown from "react-countdown";
 
 function App() {
   const [newYearMessage, setNewYearMessage] = useState([
-    "Assalamualaikum🙏",
-    "Selamat datang bulan ramadhan",
+    "SEMANGATTT SEMANGTAZZZ 🔥🔥🔥",
+    "Selamat datang di medan perang",
   ]);
 
   const particlesInitialization = async (engine) => {
@@ -15,7 +15,7 @@ function App() {
   };
 
   function timeLeft() {
-    const newYearDate = new Date("April 10, 2024 00:00:00").getTime();
+    const newYearDate = new Date("Juli 25, 2025 00:00:00").getTime();
     const nowDate = new Date().getTime();
     const remainingTime = newYearDate - nowDate;
     return remainingTime;
@@ -41,9 +41,8 @@ function App() {
             date={Date.now() + timeLeft()}
             onComplete={() =>
               setNewYearMessage([
-                "Selamat Hari Raya Indul Fitri",
-                "1445 H",
-                "Mohon Maaf Lahir dan Batin🙏",
+                "Selamat Hari Kebebasan",
+                "Sukses Selalu🙏",
               ])
             }
           />

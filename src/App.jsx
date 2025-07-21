@@ -15,7 +15,7 @@ function App() {
   };
 
   function timeLeft() {
-    const newYearDate = new Date("Juli 25, 2025 00:00:00").getTime();
+    const newYearDate = new Date("Agustus 6, 2025 00:00:00").getTime();
     const nowDate = new Date().getTime();
     const remainingTime = newYearDate - nowDate;
     return remainingTime;
